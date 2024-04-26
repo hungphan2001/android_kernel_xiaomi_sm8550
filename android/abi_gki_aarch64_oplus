@@ -113,6 +113,8 @@
   free_pages
   free_percpu
   fs_bio_set
+  fsnotify
+  __fsnotify_parent
   fsstack_copy_inode_size
   fsync_bdev
   generic_delete_inode
@@ -434,6 +436,7 @@
   __traceiter_android_vh_del_page_from_lrulist
   __traceiter_android_vh_do_futex
   __traceiter_android_vh_do_page_trylock
+  __traceiter_android_vh_do_swap_page_spf
   __traceiter_android_vh_do_traversal_lruvec
   __traceiter_android_vh_dm_bufio_shrink_scan_bypass
   __traceiter_android_vh_drain_all_pages_bypass
@@ -493,6 +496,7 @@
   __traceiter_android_vh_sched_show_task
   __traceiter_android_vh_sched_stat_runtime_rt
   __traceiter_android_vh_show_mapcount_pages
+  __traceiter_android_vh_shrink_node_memcgs
   __traceiter_android_vh_sync_txn_recvd
   __traceiter_android_vh_task_blocks_on_rtmutex
   __traceiter_android_vh_tune_inactive_ratio
@@ -573,6 +577,7 @@
   __tracepoint_android_vh_dm_bufio_shrink_scan_bypass
   __tracepoint_android_vh_do_futex
   __tracepoint_android_vh_do_page_trylock
+  __tracepoint_android_vh_do_swap_page_spf
   __tracepoint_android_vh_do_traversal_lruvec
   __tracepoint_android_vh_drain_all_pages_bypass
   __tracepoint_android_vh_dup_task_struct
@@ -631,6 +636,7 @@
   __tracepoint_android_vh_sched_show_task
   __tracepoint_android_vh_sched_stat_runtime_rt
   __tracepoint_android_vh_show_mapcount_pages
+  __tracepoint_android_vh_shrink_node_memcgs
   __tracepoint_android_vh_sync_txn_recvd
   __tracepoint_android_vh_task_blocks_on_rtmutex
   __tracepoint_android_vh_tune_inactive_ratio
